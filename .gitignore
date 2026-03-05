@@ -1,0 +1,36 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Colcon
+.colcon/
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+
+# C++
+*.o
+*.so
+*.a
+*.out
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ROS bag files
+*.db3
+*.bag
+
+# Temporary files
+*.swp
+*~
+
+# Gazebo
+*.gazebo
