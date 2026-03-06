@@ -3,7 +3,7 @@
 <package format="3">
   <name>differential_drive</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Gazebo Sim and control of a differential drive</description>
   <maintainer email="justinrdz2002@gmail.com">justinrc</maintainer>
   <license>TODO: License declaration</license>
 
