@@ -30,7 +30,7 @@ def generate_launch_description():
     #Empty gazebo world model
     gazeboLaunch = IncludeLaunchDescription(gazebo_rosPackageLaunch, launch_arguments={'gz_args':['-r -v -v4 empty.sdf'], 'on_exit_shutdown': 'true'}.items())
 
-    #Gazebo node
+    #Gazebo node xd
     spawnModelNodeGazebo = Node(
                 package='ros_gz_sim',
                 executable='create',    
